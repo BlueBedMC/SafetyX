@@ -1,6 +1,7 @@
 name: SafetyX
 version: '${project.version}'
 main: bluebed.safetyx.SafetyX
+description: SafetyX plugin for Minecraft
 commands:
   report:
     description: Lets you report a player.
