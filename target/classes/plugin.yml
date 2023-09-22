@@ -1,0 +1,16 @@
+name: SafetyX
+version: '1.0'
+main: bluebed.safetyx.SafetyX
+commands:
+  report:
+    description: Lets you report a player.
+    usage: /report <player> <option> (EXAMPLE > /report blue_bed too cool)
+  jtp:
+    description: Lets you jump to a player.
+    usage: /jtp <player>
+    permission: safetyx.jtp, op
+  staffchat:
+    aliases: sc
+    description: Lets staff chat in secret >:D
+    permission: safetyx.staffchat, op
+    usage: /staffchat <message>
